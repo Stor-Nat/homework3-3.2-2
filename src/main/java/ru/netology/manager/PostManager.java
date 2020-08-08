@@ -9,16 +9,12 @@ public class PostManager {
      * Main Page generation
      */
 
-    public Post[] search() {      // но метод у каждого свой (со своей логикой)
-        for (Post post : posts) {
+    public Post[] search(int ownerId, String domain, String query, int count, int offset, boolean extended) { // но метод у каждого свой (со своей логикой)
             // TODO: add logic
             return null;
-        }
     }
 
-    public void delete() {
-        for (Post post : posts) {
+    public void delete(int ownerId, int postId) {
             // TODO: add logic
-        }
     }
 }
